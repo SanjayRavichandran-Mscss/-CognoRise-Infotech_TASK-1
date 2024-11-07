@@ -414,7 +414,7 @@ width:25%;
 }
 
 .home__image{
-  width:220px;
+  width:200px;
 }
 
 .home__img{
@@ -441,14 +441,18 @@ width:25%;
 }
 
 .home__arrow{
-  left:40%;
-  bottom:-4rem;
+  top:35%;
+  /* margin-right: 20px; */
+  margin-top: 60px;
+  transform: scaleY(-1);
+  rotate:100deg;
+
 }
 
 .home__line{
-
-  right:-2rem;
-  bottom:-.5rem;
+  top:15%;
+ margin-top: 60px;
+  
 }
 
 .home__perfil .geometric-box{
@@ -482,13 +486,13 @@ width:25%;
   background-color: var(--black-color);
 }
 .home__info{
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 .home__description{
-  text-align:center;
+  /* text-align:center; */
   color:var(--title-color);
-  margin-bottom:1.5rem;
+  /* margin-bottom:1.5rem; */
 }
 
 .home__description b{
@@ -1338,6 +1342,8 @@ transition:background-color .4s;
     left:-8rem;
     rotate:80deg;
     width: 80px;
+   
+
   }
   .home__line{
     left:-15rem;
